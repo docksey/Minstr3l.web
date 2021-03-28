@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'OctinSpraypaintFree';
+  src: url('octin-spray-paint/OctinSpraypaintFree.eot?#iefix') format('embedded-opentype'),  url('octin-spray-paint/OctinSpraypaintFree.woff') format('woff'), url('octin-spray-paint/OctinSpraypaintFree.ttf')  format('truetype'), url('octin-spray-paint/OctinSpraypaintFree.svg#OctinSpraypaintFree') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'walker-free-style';
+  src: url('walker-free-style/walker-free-style.eot?#iefix') format('embedded-opentype'),  url('walker-free-style/walker-free-style.woff') format('woff'), url('walker-free-style/walker-free-style.ttf')  format('truetype'), url('walker-free-style/walker-free-style.svg#walker-free-style') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Degrassi';
+  src: url('degrassi/Degrassi.eot?#iefix') format('embedded-opentype'),  url('degrassi/Degrassi.woff') format('woff'), url('degrassi/Degrassi.ttf')  format('truetype'), url('degrassi/Degrassi.svg#Degrassi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '1942';
+  src: url('1942.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gunfighter';
+  src: url('gunfighter/GunfighterAcademy-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'typewriter-trashed';
+  src: url('typewriter\ trashed/typewriter_________royal200trashed.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

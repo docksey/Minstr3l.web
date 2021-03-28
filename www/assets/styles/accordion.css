@@ -1,0 +1,67 @@
+.wrap-collabsible {
+    margin: 10 0;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.lbl-toggle {
+    display: block;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .1);
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+.lbl-toggle span {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, .7);
+}
+
+.lbl-toggle p.toggle-indicator::after {
+    content: ' ';
+    display: inline-block;
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-left: .7rem;
+    transform: translateY(-2px);
+
+    transition: transform .2s ease-out;
+}
+
+.lbl-toggle p.toggle-indicator {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.toggle:checked + .lbl-toggle p.toggle-indicator::after {
+    transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 800px;
+}
+
+.toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+    background: rgba(0, 0, 0, .3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: .5rem 1rem;
+}

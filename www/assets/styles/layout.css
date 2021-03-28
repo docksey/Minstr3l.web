@@ -1,0 +1,178 @@
+html, body {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: fixed;
+    overflow: auto;
+    margin: 0;
+    padding-bottom: 5vh;
+}
+
+audio {
+    height: 30px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+.flexbox {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 50px;
+    padding: 0 3vw;
+}
+
+.header {
+    text-align: center;
+}
+
+.header a {
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-family: 'gunfighter', Courier, monospace;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header img {
+    margin-top: .5em;
+    width: 7em;
+}
+
+.marquee {
+    text-align: center;
+    display: inline-block;
+    padding: 1em;
+}
+
+.marquee img {
+    width: 12%;
+    margin: 0 1vw;
+    height: auto;
+}
+
+.navigation a {
+    font-size: 1.5vw;
+    margin: 0 1vw;
+    display: inline-block;
+    text-decoration: none;
+}
+
+    .navigation a:hover,
+    .navigation a:active {
+        color: forestgreen;
+    }
+
+    .lbl-toggle:hover {
+        background-color: rgb(34, 139, 34, 0.3);
+    }
+
+.content, .navigation {
+    padding: 25px 4vw;
+    z-index: 0;
+    max-width: 1000px;
+    margin: 1vh auto 3vh auto;
+    text-align: center;
+}
+
+.content p {
+    overflow: auto;
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.content ul {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .content#Music_Block ul,
+    .content#Music_Block li {
+        width: auto;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+.content h1 {
+    padding: 0;
+    margin: 1vh 0 2vh 0;
+}
+
+.content img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.content li audio, .content li label {
+    display: inline;
+    vertical-align: middle;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.overlay.modal {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.under-construction .overlay-image {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    position: absolute;
+    font-size: .6em;
+    text-align: center;
+    right: 0; bottom: 0; left: 0;
+    height: 5vh;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.footer span {
+    margin-top: 1.5vh;
+    display: inline-block;
+}
+
+.clear {
+    clear: both;
+}
+
+li a {
+    display: inline;
+    color: pink;
+    text-decoration: none;
+}
+
+li a:hover {
+    display: inline;
+    color: white;
+}
+
+#New_Years_Getsome {
+    margin-bottom: 20px;
+
+}
