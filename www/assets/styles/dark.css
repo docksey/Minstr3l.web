@@ -1,0 +1,70 @@
+body {
+    background-color: #4d4d4d;
+    background-size: 250px;
+    background-repeat: repeat;
+    overflow: auto;
+}
+
+a {
+    display: block;
+}
+
+iframe {
+    box-shadow: 2px 2px 15px 2px black;
+}
+
+.shadowbox {
+    box-shadow: 5px 5px 20px black;
+}
+
+.header a {
+    color: #121212;
+    font-family: 'ArchitectsDaughter', Courier, monospace;
+}
+
+.header h1 {
+    text-shadow: 0 0 10px #e6ffe6;
+}
+
+.header img {
+    border-radius: 3.5em;
+    border: 3px solid #121212;
+    box-shadow: 0 0 10px #e6ffe6;
+}
+
+.content {
+    color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.content h1 {
+    text-shadow: 0 0 2px #e6ffe6;
+}
+
+.slideshow {
+    display: none;
+    text-align: center;
+}
+
+.slideshow img {
+    width: 70%;
+    border-radius: 50px;
+    opacity: .8;
+}
+
+.content h1, .navigation a, .lbl-toggle span {
+    text-align: center;
+    font-family: 'ArchitectsDaughter';
+    color: #121212;
+}
+
+.under-construction .overlay-image {
+    background-image: url("../images/under_construction2.png");
+    background-size: 100%;
+    background-position: center 80%;
+}
+
+footer {
+    color: antiquewhite;
+    opacity: .6;
+}

@@ -39,3 +39,80 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url('ArchitectsDaughter-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bangers';
+  src: url('Bangers-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comfortaa';
+  src: url('Comfortaa-VariableFont_wght.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'exo2';
+  src: url('Exo2-VariableFont_wght.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fedoka1';
+  src: url('FredokaOne-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo-moderno';
+  src: url('MuseoModerno-VariableFont_wght.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'new-tegomin';
+  src: url('NewTegomin-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'press-start-2p';
+  src: url('PressStart2P-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('Raleway-VariableFont_wght.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'shadows-into-light';
+  src: url('ShadowsIntoLight-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'syne-mono';
+  src: url('SyneMono-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

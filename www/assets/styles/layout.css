@@ -30,15 +30,15 @@ iframe {
     padding: 0 3vw;
 }
 
-.header {
-    text-align: center;
+.header a {
+    margin-top: .5em;
+    font-size: 2vw;
+    text-decoration: none;
 }
 
-.header a {
-    font-size: 2vw;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    font-family: 'gunfighter', Courier, monospace;
+.header a * {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .header h1 {
@@ -47,8 +47,7 @@ iframe {
 }
 
 .header img {
-    margin-top: .5em;
-    width: 7em;
+    width: 2em;
 }
 
 .marquee {
