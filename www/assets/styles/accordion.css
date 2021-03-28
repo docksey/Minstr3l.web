@@ -1,5 +1,7 @@
 .wrap-collabsible {
-    margin: 10 0;
+    border: 1px solid rgba(255, 255, 255, .1);
+    text-align: left;
+    position: relative;
 }
 
 input[type='checkbox'] {
@@ -9,14 +11,8 @@ input[type='checkbox'] {
 .lbl-toggle {
     display: block;
     padding: 1rem;
-    background: rgba(255, 255, 255, .1);
     cursor: pointer;
     transition: all 0.25s ease-out;
-}
-
-.lbl-toggle span {
-    font-size: 1.2rem;
-    color: rgba(255, 255, 255, .7);
 }
 
 .lbl-toggle .toggle-indicator::after {
@@ -31,13 +27,6 @@ input[type='checkbox'] {
     transform: translateY(-2px);
 
     transition: transform .2s ease-out;
-}
-
-.lbl-toggle .toggle-indicator {
-    margin: 0;
-    padding: 0;
-    display: block;
-    text-align: center;
 }
 
 .toggle:checked + .lbl-toggle .toggle-indicator::after {
@@ -60,8 +49,14 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-    background: rgba(0, 0, 0, .3);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     padding: .5rem 1rem;
+    margin-bottom: 2em
+}
+
+#Track_Search {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
 }
